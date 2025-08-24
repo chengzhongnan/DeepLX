@@ -11,3 +11,6 @@ PROXY = ""
 
 [build]
 command = "npm run build"
+
+[observability.logs]
+enabled = true
