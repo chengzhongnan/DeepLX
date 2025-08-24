@@ -1,0 +1,33 @@
+# =============== 通用忽略 ===============
+.DS_Store         # macOS 系统文件
+.env              # 环境变量文件 (通常包含敏感信息)
+*.log             # 所有 .log 结尾的文件
+*.swp             # Vim 临时文件
+*.bak             # 备份文件
+npm-debug.log*    # npm 调试日志
+
+# ============= 构建输出目录 =============
+/dist/            # 前端项目编译输出目录 (例如 Vue/React)
+/build/           # 项目构建输出目录
+/target/          # Java Maven/Gradle 项目编译输出目录
+/output/          # 其他输出目录
+/.wrangler/       # Cloudflare Workers 构建输出目录
+
+# =============== 依赖目录 ===============
+/node_modules/    # Node.js 模块依赖
+
+# ============= IDE 和编辑器相关 ============
+.idea/            # IntelliJ IDEA 配置目录
+.vscode/          # VS Code 配置目录
+*.iml             # IntelliJ IDEA 模块文件
+.project          # Eclipse 项目文件
+.classpath        # Eclipse 类路径文件
+.settings/        # Eclipse 设置目录
+
+# ============= 操作系统特定的文件 ============
+Thumbs.db         # Windows 缩略图缓存
+ehthumbs.db
+.localized
+.wrangler/
+dist/
+node_modules/

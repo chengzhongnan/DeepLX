@@ -1,0 +1,13 @@
+name = "deeplx"
+main = "src/worker.ts"
+compatibility_date = "2025-08-24"
+
+[vars]
+IP = "0.0.0.0"
+PORT = "1188"
+TOKEN = ""
+DL_SESSION = ""
+PROXY = ""
+
+[build]
+command = "npm run build"
